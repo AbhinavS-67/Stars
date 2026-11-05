@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#05060A">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>A Sky For Two</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="flip">
+      <video id="cam" playsinline muted autoplay></video>
+      <canvas id="sky" aria-label="Interactive star map"></canvas>
+      <div id="ar-layer" hidden></div>
+      <div id="ui"></div>
+    </div>
+    <div id="loader"><div class="orbit"><i></i></div><p>Aligning the stars…</p></div>
+  </div>
+  <noscript>This sky needs JavaScript.</noscript>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

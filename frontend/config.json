@@ -1,0 +1,100 @@
+{
+  "_readme": "Edit this file to personalise the gift. No code changes needed. Tokens you can use in any text: {her} {him} {km} {sep} {tetherSep} {tetherFrom} {tetherTo}. Leave names empty to use 'you' / 'me'.",
+  "names": {
+    "her": "cheken shawarma",
+    "him": "Abhinav"
+  },
+  "observers": {
+    "default": "her",
+    "her": {
+      "name": "Ranchi",
+      "place": "Hinoo, Ranchi, Jharkhand",
+      "lat": 23.3283,
+      "lon": 85.3275
+    },
+    "him": {
+      "name": "Manipal",
+      "place": "Manipal, Udupi, Karnataka",
+      "lat": 13.3525,
+      "lon": 74.7865
+    }
+  },
+  "tether": {
+    "from": "Kaus Australis",
+    "to": "Deneb Algedi",
+    "label": "Ranchi ↔ Manipal",
+    "caption": "{km} km on the ground, {tetherSep}° in the sky"
+  },
+  "intro": {
+    "show": true,
+    "eyebrow": "A sky for two (allegedly)",
+    "title": "For {her}",
+    "titleFallback": "For you",
+    "subtitle": "Ranchi and Manipal are {km} km apart, yet somehow we're staring at the same sky. {him} built this to prove it. Nerdy? Yes. Worth it? Let's find out.",
+    "button": "Show me the stars"
+  },
+  "reveal": {
+    "cap": "Found your sign! Faint at first glance, but the longer you look, the more it glows. Some things just take a little patience to see how bright they are. You're one of them.",
+    "sgr": "And that's mine. The Archer, aiming at things far away and occasionally missing. Relatable.",
+    "both": "Look at that, only {sep}° apart. The universe clearly didn't get the memo about {km} km.",
+    "seconds": 7
+  },
+  "lockOn": {
+    "cap": "Your sign. Look for a faint, wide crescent with Deneb Algedi at the tail. Soft, steady and lovely once you notice it. Take your time, it's worth it.",
+    "sgr": "My sign. Find the Teapot, the arrow points toward Scorpius. Yes, my sign is a teapot. Let's move on."
+  },
+  "bridge": {
+    "title": "The bridge",
+    "text": "Capricornus and Sagittarius are neighbours, {sep}° apart. The glowing line joins {tetherFrom} and {tetherTo}. Basically a very dramatic string between two cups.",
+    "sharedMoon": "Same Moon, both of us. No, it still won't pick a side."
+  },
+  "footer": "Made by {him} for {her}. Clear skies required, snacks optional.",
+  "audio": {
+    "enabled": true,
+    "startOnBegin": false
+  },
+  "features": {
+    "weather": true,
+    "gpsButton": true,
+    "defaultLayers": {
+      "lines": true,
+      "art": true,
+      "bounds": true,
+      "labels": true,
+      "tether": true,
+      "milkyWay": true
+    }
+  },
+  "ar": {
+    "defaultFovDeg": 62,
+    "lockRadiusDeg": 11,
+    "magneticDeclinationDeg": 0
+  },
+  "ourStars": [
+    {
+      "star": "Kaus Australis",
+      "title": "Mine",
+      "note": "The brightest star in my sign, the bottom of the Teapot. Easy to find once you know where to look."
+    },
+    {
+      "star": "Deneb Algedi",
+      "title": "Yours",
+      "note": "The tail of the Sea-Goat, and the brightest star in your sign. Soft glow, takes a second to notice. Worth the second."
+    }
+  ],
+  "dailyNotes": [
+    "Same sky tonight, different window. Take a look around 7.",
+    "Capricornus is famously hard to spot. You're welcome to prove it wrong.",
+    "Starlight is old news by the time it reaches us. This message is fresher.",
+    "Cloudy tonight? The stars are still up there. Same as a good plan.",
+    "Tonight's challenge: find the Teapot before the app tells you where it is.",
+    "Fun fact: the Milky Way is out there tonight. You just have to step away from the lights.",
+    "Two cities, one sky. The odds were never better."
+  ],
+  "wish": {
+    "text": "Shooting star! Make a wish. I won't ask what it was."
+  },
+  "save": {
+    "title": "A sky for two"
+  }
+}
